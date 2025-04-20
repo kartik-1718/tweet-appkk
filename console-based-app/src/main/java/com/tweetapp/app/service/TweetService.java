@@ -47,7 +47,7 @@ public class TweetService {
 				System.out.println(rs.getDate("created")+" "+rs.getString("tweet"));
 			}
 		}catch(Exception e) {
-			System.out.println("Something went wrong. Please try again");
+			System.out.println("Something went wrong. Please try again...git ");
 		}
 		return true;
 	}
